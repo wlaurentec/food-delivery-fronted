@@ -11,3 +11,32 @@
   width: 100%;
   border-radius: 15px 15px 0 0;
 }
+
+.food-item-img-container {
+  position: relative;
+}
+
+.food-item-img-container .add {
+  width: 35px;
+  position: absolute;
+  bottom: 15px;
+  right: 15px;
+  cursor: pointer;
+  border-radius: 50%;
+}
+
+.food-item-counter {
+  display: flex;
+  align-items: center; 
+  position: absolute;
+  bottom: 15px;
+  right: 15px;
+  gap: 10px;
+  background: white;
+  padding: 10px;
+  border-radius: 50px;
+}
+
+.food-item-counter img {
+  width: 30px;
+}
